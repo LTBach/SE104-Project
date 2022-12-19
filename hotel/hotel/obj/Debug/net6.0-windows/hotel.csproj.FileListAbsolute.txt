@@ -5,7 +5,6 @@ D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\bin\Debug\net6.0-windows\hotel.
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\bin\Debug\net6.0-windows\ref\hotel.dll
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\bin\Debug\net6.0-windows\hotel.pdb
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.csproj.AssemblyReference.cache
-D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.Form1.resources
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.Properties.Resources.resources
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.csproj.GenerateResource.cache
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,4 +15,9 @@ D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\ref\hotel.dll
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.pdb
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.genruntimeconfig.cache
-D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.Form2.resources
+D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.fcatalog.resources
+D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.fhome.resources
+D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.freserve.resources
+D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.fbill.resources
+D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.freport.resources
+D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.fsearch.resources

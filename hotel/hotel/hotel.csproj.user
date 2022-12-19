@@ -1,10 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="fcatalog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2.cs">
+    <Compile Update="fhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="freserve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="fbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="freport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="fsearch.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
