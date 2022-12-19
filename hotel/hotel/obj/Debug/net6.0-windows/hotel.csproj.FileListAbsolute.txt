@@ -21,3 +21,29 @@ D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.fbill.resources
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.freport.resources
 D:\HOC_TAP\công nghệ phần mềm\hotel\hotel\obj\Debug\net6.0-windows\hotel.fsearch.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\bin\Debug\net6.0-windows\hotel.exe
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\bin\Debug\net6.0-windows\hotel.deps.json
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\bin\Debug\net6.0-windows\hotel.runtimeconfig.json
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\bin\Debug\net6.0-windows\hotel.dll
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\bin\Debug\net6.0-windows\hotel.pdb
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.faddroom.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.fbill.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.fcatalog.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.fhome.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.Form1.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.Form2.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.freport.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.freserve.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.fsearch.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.Properties.Resources.resources
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.AssemblyInfo.cs
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.dll
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\refint\hotel.dll
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.pdb
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\hotel.genruntimeconfig.cache
+C:\Users\Admin\Downloads\SE104-FinalExam-edit_hotel\hotel\hotel\obj\Debug\net6.0-windows\ref\hotel.dll

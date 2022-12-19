@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -40,7 +41,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_add_room = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.class1BindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -55,7 +56,6 @@
             this.class1BindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.class1BindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.class1BindingSource3 = new System.Windows.Forms.BindingSource(this.components);
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.class1BindingSource)).BeginInit();
@@ -87,6 +87,15 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông Tin";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(132, 375);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 40);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Check";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
@@ -170,7 +179,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button4);
+            this.groupBox3.Controls.Add(this.btn_add_room);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -182,14 +191,15 @@
             this.groupBox3.Text = "Chức Năng";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // button4
+            // btn_add_room
             // 
-            this.button4.Location = new System.Drawing.Point(52, 47);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(199, 48);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Thêm";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_add_room.Location = new System.Drawing.Point(52, 47);
+            this.btn_add_room.Name = "btn_add_room";
+            this.btn_add_room.Size = new System.Drawing.Size(199, 48);
+            this.btn_add_room.TabIndex = 3;
+            this.btn_add_room.Text = "Thêm";
+            this.btn_add_room.UseVisualStyleBackColor = true;
+            this.btn_add_room.Click += new System.EventHandler(this.btn_add_room_Click);
             // 
             // button2
             // 
@@ -295,16 +305,7 @@
             // 
             this.class1BindingSource3.DataSource = typeof(hotel.MDphong.Class1);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(132, 375);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 40);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Check";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // Form2
+            // fcatalog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -313,7 +314,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.MaximizeBox = false;
-            this.Name = "Form2";
+            this.Name = "fcatalog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.groupBox2.ResumeLayout(false);
@@ -341,7 +342,7 @@
         private TextBox textBox2;
         private GroupBox groupBox3;
         private Button button3;
-        private Button button4;
+        private Button btn_add_room;
         private Button button2;
         private BindingSource class1BindingSource;
         private GroupBox groupBox1;

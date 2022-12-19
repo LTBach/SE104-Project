@@ -41,5 +41,11 @@ namespace hotel
         {
 
         }
+
+        private void btn_add_room_Click(object sender, EventArgs e)
+        {
+            faddroom newroom = new faddroom();
+            newroom.Show();
+        }
     }
 }
