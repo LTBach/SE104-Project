@@ -12,7 +12,8 @@ namespace hotel
         
         private void btn_intro_Click(object sender, EventArgs e)
         {
-
+            freview rv = new freview();
+            rv.Show();
         }
 
         private void btn_catalog_Click(object sender, EventArgs e)

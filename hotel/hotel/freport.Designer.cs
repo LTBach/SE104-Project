@@ -196,15 +196,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tháng:";
             // 
-            // Form6
+            // freport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(969, 567);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form6";
+            this.Name = "freport";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form6";
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

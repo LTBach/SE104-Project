@@ -16,6 +16,9 @@
     <Compile Update="faddroom.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="freview.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="freserve.cs">
       <SubType>Form</SubType>
     </Compile>

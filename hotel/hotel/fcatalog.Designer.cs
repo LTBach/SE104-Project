@@ -30,9 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -70,9 +69,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.comboBox2);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
@@ -88,6 +86,18 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông Tin";
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "",
+            "Trống",
+            "Có Người"});
+            this.comboBox2.Location = new System.Drawing.Point(28, 324);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(233, 39);
+            this.comboBox2.TabIndex = 14;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(132, 375);
@@ -96,28 +106,6 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "Check";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(132, 324);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(129, 35);
-            this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Có người";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(28, 324);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(93, 35);
-            this.radioButton1.TabIndex = 11;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Trống";
-            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -316,7 +304,7 @@
             this.MaximizeBox = false;
             this.Name = "fcatalog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Danh Mục Phòng";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -360,9 +348,8 @@
         private DataGridViewTextBoxColumn loaiphongDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dongiaDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn ghichuDataGridViewTextBoxColumn;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
         private ComboBox comboBox1;
         private Button button1;
+        private ComboBox comboBox2;
     }
 }

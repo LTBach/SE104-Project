@@ -245,7 +245,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "fbill";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form5";
+            this.Text = "Hóa Đơn";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

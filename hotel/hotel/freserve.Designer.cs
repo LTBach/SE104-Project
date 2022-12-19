@@ -40,6 +40,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.class1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -171,6 +171,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông Tin Phòng";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(325, 181);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(149, 82);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Nhận Phòng";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -297,15 +306,6 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Ngày Bắt Đầu Thuê:";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(325, 181);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(149, 82);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Nhận Phòng";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // freserve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -316,7 +316,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "freserve";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
