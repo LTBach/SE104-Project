@@ -9,11 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace hotel
 {
     public partial class freserve : Form
     {
+        static string path = "Data Source=LAPTOP-1DM2B00F;Initial Catalog=QUANLY_KHACHSAN;Integrated Security=True";
         public freserve()
         {
             InitializeComponent();

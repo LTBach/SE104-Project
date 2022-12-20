@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Downloads\\SE104-FinalExam-edit_hotel\\hotel\\hotel\\hotel.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Downloads\\SE104-FinalExam-edit_hotel\\hotel\\hotel\\hotel.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\SE104-FinalExam-edit_hotel\\hotel\\hotel\\hotel.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj",
         "projectName": "hotel",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\SE104-FinalExam-edit_hotel\\hotel\\hotel\\hotel.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\SE104-FinalExam-edit_hotel\\hotel\\hotel\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

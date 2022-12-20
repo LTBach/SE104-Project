@@ -56,6 +56,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.class1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btn_del_custome = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -66,6 +67,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_del_custome);
             this.groupBox1.Controls.Add(this.btn_add_customer);
             this.groupBox1.Controls.Add(this.cbbType);
             this.groupBox1.Controls.Add(this.label4);
@@ -315,6 +317,15 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Ngày Bắt Đầu Thuê:";
             // 
+            // btn_del_custome
+            // 
+            this.btn_del_custome.Location = new System.Drawing.Point(256, 449);
+            this.btn_del_custome.Name = "btn_del_custome";
+            this.btn_del_custome.Size = new System.Drawing.Size(183, 51);
+            this.btn_del_custome.TabIndex = 9;
+            this.btn_del_custome.Text = "Xóa";
+            this.btn_del_custome.UseVisualStyleBackColor = true;
+            // 
             // freserve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -370,5 +381,6 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private Button btn_del_custome;
     }
 }

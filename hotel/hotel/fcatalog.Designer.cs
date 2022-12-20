@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbbStatus = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbbRoomType = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtPrice = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtRoomName = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btn_add_room = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -69,15 +69,15 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.cbbStatus);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.cbbRoomType);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.txtPrice);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.txtRoomName);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox2.Location = new System.Drawing.Point(12, 16);
             this.groupBox2.Name = "groupBox2";
@@ -86,17 +86,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông Tin";
             // 
-            // comboBox2
+            // cbbStatus
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbbStatus.FormattingEnabled = true;
+            this.cbbStatus.Items.AddRange(new object[] {
             "",
             "Trống",
-            "Có Người"});
-            this.comboBox2.Location = new System.Drawing.Point(28, 324);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(233, 39);
-            this.comboBox2.TabIndex = 14;
+            "Có người"});
+            this.cbbStatus.Location = new System.Drawing.Point(28, 324);
+            this.cbbStatus.Name = "cbbStatus";
+            this.cbbStatus.Size = new System.Drawing.Size(233, 39);
+            this.cbbStatus.TabIndex = 14;
             // 
             // button1
             // 
@@ -106,14 +106,18 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "Check";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox1
+            // cbbRoomType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(28, 159);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(233, 39);
-            this.comboBox1.TabIndex = 10;
+            this.cbbRoomType.FormattingEnabled = true;
+            this.cbbRoomType.Items.AddRange(new object[] {
+            ""});
+            this.cbbRoomType.Location = new System.Drawing.Point(28, 159);
+            this.cbbRoomType.Name = "cbbRoomType";
+            this.cbbRoomType.Size = new System.Drawing.Size(233, 39);
+            this.cbbRoomType.TabIndex = 10;
+            this.cbbRoomType.SelectedIndexChanged += new System.EventHandler(this.cbbRoomType_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -133,12 +137,12 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Đơn Giá:";
             // 
-            // textBox4
+            // txtPrice
             // 
-            this.textBox4.Location = new System.Drawing.Point(28, 246);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(233, 38);
-            this.textBox4.TabIndex = 6;
+            this.txtPrice.Location = new System.Drawing.Point(28, 246);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(233, 38);
+            this.txtPrice.TabIndex = 6;
             // 
             // label3
             // 
@@ -158,12 +162,13 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Tên Phòng:";
             // 
-            // textBox2
+            // txtRoomName
             // 
-            this.textBox2.Location = new System.Drawing.Point(28, 73);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 38);
-            this.textBox2.TabIndex = 2;
+            this.txtRoomName.Location = new System.Drawing.Point(28, 73);
+            this.txtRoomName.Name = "txtRoomName";
+            this.txtRoomName.Size = new System.Drawing.Size(233, 38);
+            this.txtRoomName.TabIndex = 2;
+            this.txtRoomName.TextChanged += new System.EventHandler(this.txtRoomName_TextChanged);
             // 
             // groupBox3
             // 
@@ -324,10 +329,10 @@
         private GroupBox groupBox2;
         private Label label5;
         private Label label4;
-        private TextBox textBox4;
+        private TextBox txtPrice;
         private Label label3;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox txtRoomName;
         private GroupBox groupBox3;
         private Button button3;
         private Button btn_add_room;
@@ -348,8 +353,8 @@
         private DataGridViewTextBoxColumn loaiphongDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dongiaDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn ghichuDataGridViewTextBoxColumn;
-        private ComboBox comboBox1;
+        private ComboBox cbbRoomType;
         private Button button1;
-        private ComboBox comboBox2;
+        private ComboBox cbbStatus;
     }
 }
