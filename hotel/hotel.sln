@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hotel", "hotel\hotel.csproj", "{9305ED2A-6CD9-40E3-B4D3-999F0F06F168}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84ACFC2D-3A56-48A2-A8EA-C9F7FA32562F}"
+	ProjectSection(SolutionItems) = preProject
+		hotel\MDphong\Class1.cs = hotel\MDphong\Class1.cs
+		hotel\PhieuThue\Class1.cs = hotel\PhieuThue\Class1.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -35,7 +35,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -48,6 +47,9 @@
             this.thanhtienDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.class1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label4 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -108,6 +110,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dateTimePicker1);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.textBox3);
             this.groupBox2.Controls.Add(this.label3);
@@ -120,15 +123,6 @@
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông Tin Hóa Đơn";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 131);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 31);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Trị Giá:";
             // 
             // textBox3
             // 
@@ -164,6 +158,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.dataGridView1);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox3.Location = new System.Drawing.Point(12, 176);
@@ -188,7 +183,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(1042, 471);
+            this.dataGridView1.Size = new System.Drawing.Size(1042, 436);
             this.dataGridView1.TabIndex = 0;
             // 
             // phongDataGridViewTextBoxColumn
@@ -235,6 +230,31 @@
             // 
             this.class1BindingSource.DataSource = typeof(hotel.HoaDon.Class1);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(28, 135);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(212, 31);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Ngày Lập Hóa Đơn:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(293, 128);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(363, 38);
+            this.dateTimePicker1.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(682, 476);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(83, 31);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Trị Giá:";
+            // 
             // fbill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -251,6 +271,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.class1BindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -265,7 +286,6 @@
         private Button btn_add;
         private TextBox textBox1;
         private GroupBox groupBox2;
-        private Label label4;
         private TextBox textBox3;
         private Label label3;
         private TextBox textBox2;
@@ -278,5 +298,8 @@
         private DataGridViewTextBoxColumn dongiaDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn thanhtienDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn ghichu;
+        private DateTimePicker dateTimePicker1;
+        private Label label4;
+        private Label label5;
     }
 }
