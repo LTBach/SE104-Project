@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.Ten = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtRoomName = new System.Windows.Forms.TextBox();
+            this.txtNote = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbbRoomType = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -41,35 +41,39 @@
             // 
             this.Ten.AutoSize = true;
             this.Ten.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Ten.Location = new System.Drawing.Point(12, 19);
+            this.Ten.Location = new System.Drawing.Point(15, 24);
+            this.Ten.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Ten.Name = "Ten";
-            this.Ten.Size = new System.Drawing.Size(126, 31);
+            this.Ten.Size = new System.Drawing.Size(154, 38);
             this.Ten.TabIndex = 0;
             this.Ten.Text = "Tên Phòng:";
             // 
-            // textBox1
+            // txtRoomName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(184, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(257, 38);
-            this.textBox1.TabIndex = 1;
+            this.txtRoomName.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtRoomName.Location = new System.Drawing.Point(230, 24);
+            this.txtRoomName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRoomName.Name = "txtRoomName";
+            this.txtRoomName.Size = new System.Drawing.Size(320, 44);
+            this.txtRoomName.TabIndex = 1;
             // 
-            // textBox2
+            // txtNote
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(184, 175);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(257, 38);
-            this.textBox2.TabIndex = 3;
+            this.txtNote.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNote.Location = new System.Drawing.Point(230, 219);
+            this.txtNote.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNote.Name = "txtNote";
+            this.txtNote.Size = new System.Drawing.Size(320, 44);
+            this.txtNote.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 175);
+            this.label1.Location = new System.Drawing.Point(15, 219);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 31);
+            this.label1.Size = new System.Drawing.Size(122, 38);
             this.label1.TabIndex = 2;
             this.label1.Text = "Ghi Chú:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -78,44 +82,50 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 99);
+            this.label2.Location = new System.Drawing.Point(15, 124);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 31);
+            this.label2.Size = new System.Drawing.Size(161, 38);
             this.label2.TabIndex = 4;
             this.label2.Text = "Loại Phòng:";
             // 
-            // comboBox1
+            // cbbRoomType
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(184, 99);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(257, 39);
-            this.comboBox1.TabIndex = 5;
+            this.cbbRoomType.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cbbRoomType.FormattingEnabled = true;
+            this.cbbRoomType.Location = new System.Drawing.Point(230, 124);
+            this.cbbRoomType.Margin = new System.Windows.Forms.Padding(4);
+            this.cbbRoomType.Name = "cbbRoomType";
+            this.cbbRoomType.Size = new System.Drawing.Size(320, 46);
+            this.cbbRoomType.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(308, 236);
+            this.button1.Location = new System.Drawing.Point(385, 295);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 57);
+            this.button1.Size = new System.Drawing.Size(166, 71);
             this.button1.TabIndex = 6;
             this.button1.Text = "SAVE";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // faddroom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 310);
+            this.ClientSize = new System.Drawing.Size(565, 388);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbbRoomType);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtNote);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtRoomName);
             this.Controls.Add(this.Ten);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "faddroom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thêm Phòng";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -125,11 +135,11 @@
         #endregion
 
         private Label Ten;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtRoomName;
+        private TextBox txtNote;
         private Label label1;
         private Label label2;
-        private ComboBox comboBox1;
+        private ComboBox cbbRoomType;
         private Button button1;
     }
 }

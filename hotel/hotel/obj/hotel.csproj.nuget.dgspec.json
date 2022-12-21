@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj": {}
+    "C:\\Users\\Bach\\Desktop\\Workspace\\Hotel\\hotel\\hotel\\hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj": {
+    "C:\\Users\\Bach\\Desktop\\Workspace\\Hotel\\hotel\\hotel\\hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj",
+        "projectUniqueName": "C:\\Users\\Bach\\Desktop\\Workspace\\Hotel\\hotel\\hotel\\hotel.csproj",
         "projectName": "hotel",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\hotel.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\hotel\\hotel\\hotel\\obj\\",
+        "projectPath": "C:\\Users\\Bach\\Desktop\\Workspace\\Hotel\\hotel\\hotel\\hotel.csproj",
+        "packagesPath": "C:\\Users\\Bach\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bach\\Desktop\\Workspace\\Hotel\\hotel\\hotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bach\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
