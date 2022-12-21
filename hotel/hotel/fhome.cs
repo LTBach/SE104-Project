@@ -18,26 +18,32 @@ namespace hotel
 
         private void btn_catalog_Click(object sender, EventArgs e)
         {
-            fcatalog f2 = new fcatalog();
-            f2.Show();
+            fcatalog ctl = new fcatalog();
+            ctl.Show();
         }
 
         private void btn_search_Click(object sender, EventArgs e)
         {
-            fsearch f3 = new fsearch();
-            f3.Show();
+            fsearch se = new fsearch();
+            se.Show();
         }
 
         private void btn_bill_Click(object sender, EventArgs e)
         {
-            fbill f5 = new fbill();
-            f5.Show();
+            fbill bill = new fbill();
+            bill.Show();
         }
 
         private void btn_report_Click(object sender, EventArgs e)
         {
-            freport f6 = new freport();
-            f6.Show();
+            freport rp = new freport();
+            rp.Show();
+        }
+
+        private void btn_adjust_Click(object sender, EventArgs e)
+        {
+            frules rl = new frules();
+            rl.Show();
         }
     }
 }
